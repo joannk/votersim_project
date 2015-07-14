@@ -16,32 +16,52 @@ class Campaign
         when "Libertarian"
           if rand(1..100) <= 90
             v.vote_for = "Republican"
+            sleep(1)
+            puts "#{v.name}: I like this Republican"
           else
             v.vote_for = "Democrat"
+            sleep(1)
+            puts "#{v.name}: I like this Democrat"
           end
         when "Conservative"
           if rand(1..100) <= 75
             v.vote_for = "Republican"
+            sleep(1)
+            puts "#{v.name}: I like this Republican"
           else
             v.vote_for = "Democrat"
+            sleep(1)
+            puts "#{v.name}: I like this Democrat"
           end
         when "Independent"
           if rand(1..100) <= 50
             v.vote_for = "Republican"
+            sleep(1)
+            puts "#{v.name}: I like this Republican"
           else
             v.vote_for = "Democrat"
+            sleep(1)
+            puts "#{v.name}: I like this Democrat"
           end
         when "Progressive"
           if rand(1..100) <= 25
             v.vote_for = "Republican"
+            sleep(1)
+            puts "#{v.name}: I like this Republican"
           else
             v.vote_for = "Democrat"
+            sleep(1)
+            puts "#{v.name}: I like this Democrat"
           end
         when "Massachusetts Democrat"
           if rand(1..100) <= 10
             v.vote_for = "Republican"
+            sleep(1)
+            puts "#{v.name}: I like this Republican"
           else
             v.vote_for = "Democrat"
+            sleep(1)
+            puts "#{v.name}: I like this Democrat"
           end
       end
       end
